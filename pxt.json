@@ -1,0 +1,23 @@
+{
+    "name": "pomodorome-digital timer",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "TM1650": "github:makecode-extensions/tm1650#v1.1.0",
+        "TM1637": "github:makecode-extensions/tm1637#v1.0.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
